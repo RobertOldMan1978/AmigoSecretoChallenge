@@ -2,12 +2,8 @@
 // crea lista
 let listaDeNombres[];
 
-function agregarAmigo(texto) {
-    let imput = document.getElementById("Imput Nombre");
-    let texto = imput.value.trim();
-
-    if (texto === "" ) {
-        else 
-    }
+function agregarAmigo() {
+    let nombreAmigo = document.getElementById(`amigo`);
+    console.log(nombreAmigo);
+    return;
 }
-
